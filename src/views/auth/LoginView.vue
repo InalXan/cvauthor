@@ -25,13 +25,13 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
           placeholder="Email"
         />
         <InputUtil
-          class="m-2 w:1/2 select none border ring border-primary ring-primary"
+          class="m-2 w:1/2 select-none border ring border-primary ring-primary"
           type="password"
           placeholder="********"
         />
         <SubmitUtil
           value="Login"
-          class="m-2 w:1/2 select none border ring hover:bg-primary hover:text-second border-primary ring-primary"
+          class="m-2 w:1/2 select-none border ring hover:bg-primary hover:text-second border-primary ring-primary"
         />
         <ul class="flex justify-between items-center">
           <li class="underline text-primary text-sm m-2">
