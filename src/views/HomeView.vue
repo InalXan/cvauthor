@@ -4,9 +4,9 @@ import RouterUtil from '@/utils/RouterUtil.vue'
 
 <template>
   <div class="w-full h-full flex items-center justify-center flex-col">
-    <div class="p-5 sm:w-full w-1/2 h-screen flex flex-col justify-center items-center bg-second">
-      <div>
-        <h1 class="text-2xl font-bold underline decoration-primary text-primary">
+    <div class="p-5 sm:w-1/2 w-full h-screen flex flex-col justify-center items-center bg-second">
+      <div class="flex justify-center items-center">
+        <h1 class="text-2xl font-bold m-2 select-none underline decoration-primary text-primary">
           Create Your Work Profile.
         </h1>
       </div>

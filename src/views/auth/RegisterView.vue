@@ -32,7 +32,7 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
         <InputUtil
           class="m-2 w:1/2 border ring select-none border-primary ring-primary"
           type="email"
-          placeholder="Email"
+          placeholder="example@mail.az"
         />
         <InputUtil
           class="m-2 w:1/2 border ring select-none border-primary ring-primary"
@@ -57,9 +57,24 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
           </li>
         </ul>
         <ul class="flex justify-evenly">
-          <li><ion-icon class="p-2 text-2xl cursor-pointer" name="logo-google"></ion-icon></li>
-          <li><ion-icon class="p-2 text-2xl cursor-pointer" name="logo-facebook"></ion-icon></li>
-          <li><ion-icon class="p-2 text-2xl cursor-pointer" name="logo-github"></ion-icon></li>
+          <li>
+            <ion-icon
+              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              name="logo-google"
+            ></ion-icon>
+          </li>
+          <li>
+            <ion-icon
+              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              name="logo-facebook"
+            ></ion-icon>
+          </li>
+          <li>
+            <ion-icon
+              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              name="logo-github"
+            ></ion-icon>
+          </li>
         </ul>
       </form>
     </div>

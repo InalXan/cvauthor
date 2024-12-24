@@ -20,12 +20,12 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
       <HeaderUtil title="Welcome Client" class="text-primary text-3xl underline" />
       <form action="" class="flex flex-col">
         <InputUtil
-          class="m-2 w:1/2 border ring select-none border-primary ring-primary"
+          class="m-2 w:1/2 border text-primary ring select-none border-primary ring-primary"
           type="email"
-          placeholder="Email"
+          placeholder="example@mail.az"
         />
         <InputUtil
-          class="m-2 w:1/2 select-none border ring border-primary ring-primary"
+          class="m-2 w:1/2 text-primary select-none border ring border-primary ring-primary"
           type="password"
           placeholder="********"
         />
@@ -42,9 +42,24 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
           </li>
         </ul>
         <ul class="flex justify-evenly">
-          <li><ion-icon class="p-2 text-2xl cursor-pointer" name="logo-google"></ion-icon></li>
-          <li><ion-icon class="p-2 text-2xl cursor-pointer" name="logo-facebook"></ion-icon></li>
-          <li><ion-icon class="p-2 text-2xl cursor-pointer" name="logo-github"></ion-icon></li>
+          <li>
+            <ion-icon
+              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              name="logo-google"
+            ></ion-icon>
+          </li>
+          <li>
+            <ion-icon
+              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              name="logo-facebook"
+            ></ion-icon>
+          </li>
+          <li>
+            <ion-icon
+              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              name="logo-github"
+            ></ion-icon>
+          </li>
         </ul>
       </form>
     </div>

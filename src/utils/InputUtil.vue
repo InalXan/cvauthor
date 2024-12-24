@@ -9,7 +9,7 @@ export default {
 </script>
 <template>
   <input
-    class="p-2 rounded-lg hover:ring-2 transition-all hover:ring-second bg-transparent text-second"
+    class="p-2 rounded-lg hover:ring-2 transition-all hover:ring-second bg-transparent"
     :type="type"
     :placeholder="placeholder"
   />
