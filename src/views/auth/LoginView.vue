@@ -17,7 +17,7 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
           icon="home"
         />
       </div>
-      <HeaderUtil title="Welcome Client" class="text-primary text-3xl underline" />
+      <HeaderUtil title="Hi, cvauthor's user" class="text-primary text-3xl underline" />
       <form action="" class="flex flex-col">
         <InputUtil
           class="m-2 w:1/2 border text-primary ring select-none border-primary ring-primary"
