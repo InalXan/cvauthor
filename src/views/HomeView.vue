@@ -3,12 +3,23 @@ import RouterUtil from '@/utils/RouterUtil.vue'
 </script>
 
 <template>
-  <div class="w-full h-full flex items-center justify-center flex-col">
-    <div class="p-5 sm:w-1/2 w-full h-screen flex flex-col justify-center items-center bg-second">
+  <div
+    class="w-full h-screen bg-home-bg bg-cover flex items-center overflow-hidden justify-center flex-col"
+  >
+    <div
+      class="p-5 sm:w-[90%] w-full shadow-lg h-screen flex flex-col justify-center items-center bg-[rgba(255,255,255,0.6)]"
+    >
       <div class="flex justify-center items-center">
-        <h1 class="text-2xl font-bold m-2 select-none underline decoration-primary text-primary">
-          Create Your Work Profile.
-        </h1>
+        <div class="text-left">
+          <h1
+            class="text-2xl sm:text-3xl font-bold select-none underline decoration-primary text-second"
+          >
+            Create Your Career Profile With
+          </h1>
+          <span class="font-extrabold text-3xl sm:text-4xl italic text-primary underline"
+            >MADLYNK</span
+          >
+        </div>
       </div>
       <div class="p-5 flex justify-around items-center">
         <RouterUtil

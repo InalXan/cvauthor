@@ -6,9 +6,11 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
 </script>
 
 <template>
-  <div class="w-full h-screen flex justify-center items-center">
+  <div
+    class="w-full h-screen bg-login-bg bg-cover overflow-hidden flex flex-col justify-center items-center"
+  >
     <div
-      class="relative w-full flex items-center flex-col justify-center h-screen flex-wrap shadow-lg md:w-1/2 bg-second"
+      class="relative w-full flex items-center flex-col justify-center h-screen flex-wrap shadow-lg md:w-1/2 md:bg-second bg-[rgba(255,255,255,0.6)]"
     >
       <div class="w-full absolute top-0 flex flex-start items-center">
         <RouterIconUtil
@@ -17,21 +19,22 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
           icon="home"
         />
       </div>
-      <HeaderUtil title="Hi, cvauthor's user" class="text-primary text-3xl underline" />
+      <HeaderUtil title="Welcome to" class="text-primary text-3xl underline" />
+      <img src="@/assets/images/logo/logo-transparent.png" class="w-28 h-28 rounded-lg" alt="" />
       <form action="" class="flex flex-col">
         <InputUtil
-          class="m-2 w:1/2 border text-primary ring select-none border-primary ring-primary"
+          class="m-2 w:1/2 border md:bg-second bg-[rgba(255,255,255,0.6)] text-primary ring select-none border-primary ring-primary"
           type="email"
           placeholder="example@mail.az"
         />
         <InputUtil
-          class="m-2 w:1/2 text-primary select-none border ring border-primary ring-primary"
+          class="m-2 w:1/2 md:bg-second bg-[rgba(255,255,255,0.6)] text-primary select-none border ring border-primary ring-primary"
           type="password"
           placeholder="********"
         />
         <SubmitUtil
           value="Login"
-          class="m-2 w:1/2 select-none border ring hover:bg-primary hover:text-second border-primary ring-primary"
+          class="m-2 w:1/2 select-none border md:bg-second bg-[rgba(255,255,255,0.6)] ring hover:bg-primary hover:text-second border-primary ring-primary"
         />
         <ul class="flex justify-between items-center">
           <li class="underline text-primary text-sm m-2">

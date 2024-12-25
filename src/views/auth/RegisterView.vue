@@ -6,9 +6,11 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
 </script>
 
 <template>
-  <div class="w-full h-screen flex justify-center items-center">
+  <div
+    class="w-full h-screen bg-logo-bg bg-cover bg-center overflow-hidden flex justify-center items-center"
+  >
     <div
-      class="relative w-full flex items-center flex-col justify-center h-screen flex-wrap shadow-lg md:w-1/2 bg-second"
+      class="relative w-full flex items-center flex-col justify-center h-screen flex-wrap shadow-lg md:w-1/2 bg-[rgba(255,255,255,0.6)]"
     >
       <div class="w-full absolute top-0 flex flex-start items-center">
         <RouterIconUtil
@@ -20,27 +22,27 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
       <HeaderUtil title="Welcome Client" class="text-primary text-3xl underline" />
       <form action="" class="flex flex-col">
         <InputUtil
-          class="m-2 w:1/2 border ring select-none border-primary ring-primary"
+          class="m-2 w:1/2 border ring select-none bg-[rgba(255,255,255,0.6)] border-primary ring-primary"
           type="text"
           placeholder="First Name"
         />
         <InputUtil
-          class="m-2 w:1/2 border ring select-none border-primary ring-primary"
+          class="m-2 w:1/2 border ring select-none border-primary bg-[rgba(255,255,255,0.6)] ring-primary"
           type="text"
           placeholder="Last Name"
         />
         <InputUtil
-          class="m-2 w:1/2 border ring select-none border-primary ring-primary"
+          class="m-2 w:1/2 border ring select-none border-primary bg-[rgba(255,255,255,0.6)] ring-primary"
           type="email"
           placeholder="example@mail.az"
         />
         <InputUtil
-          class="m-2 w:1/2 border ring select-none border-primary ring-primary"
+          class="m-2 w:1/2 border ring select-none border-primary bg-[rgba(255,255,255,0.6)] ring-primary"
           type="number"
           placeholder="+ ( *** ) ** **"
         />
         <InputUtil
-          class="m-2 w:1/2 select none border ring border-primary ring-primary"
+          class="m-2 w:1/2 select none border ring border-primary bg-[rgba(255,255,255,0.6)] ring-primary"
           type="password"
           placeholder="********"
         />
