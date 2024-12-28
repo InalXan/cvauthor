@@ -22,16 +22,8 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
       <HeaderUtil title="Welcome to" class="text-primary text-3xl underline" />
       <img src="@/assets/images/logo/logo-transparent.png" class="w-28 h-28 rounded-lg" alt="" />
       <form action="" class="flex flex-col">
-        <InputUtil
-          class="m-2 w:1/2 border md:bg-second bg-[rgba(255,255,255,0.6)] text-primary ring select-none border-primary ring-primary"
-          type="email"
-          placeholder="example@mail.az"
-        />
-        <InputUtil
-          class="m-2 w:1/2 md:bg-second bg-[rgba(255,255,255,0.6)] text-primary select-none border ring border-primary ring-primary"
-          type="password"
-          placeholder="********"
-        />
+        <InputUtil type="email" placeholder="example@mail.az" />
+        <InputUtil type="password" placeholder="********" />
         <SubmitUtil
           value="Login"
           class="m-2 w:1/2 select-none border md:bg-second bg-[rgba(255,255,255,0.6)] ring hover:bg-primary hover:text-second border-primary ring-primary"
@@ -47,19 +39,19 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
         <ul class="flex justify-evenly">
           <li>
             <ion-icon
-              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              class="p-2 text-primary bg-second rounded-lg shadow-md text-2xl cursor-pointer"
               name="logo-google"
             ></ion-icon>
           </li>
           <li>
             <ion-icon
-              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              class="p-2 text-primary bg-second rounded-lg shadow-md text-2xl cursor-pointer"
               name="logo-facebook"
             ></ion-icon>
           </li>
           <li>
             <ion-icon
-              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              class="p-2 text-primary bg-second rounded-lg shadow-md text-2xl cursor-pointer"
               name="logo-github"
             ></ion-icon>
           </li>

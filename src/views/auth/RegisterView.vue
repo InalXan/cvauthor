@@ -21,31 +21,11 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
       </div>
       <HeaderUtil title="Welcome Client" class="text-primary text-3xl underline" />
       <form action="" class="flex flex-col">
-        <InputUtil
-          class="m-2 w:1/2 border ring select-none bg-[rgba(255,255,255,0.6)] border-primary ring-primary"
-          type="text"
-          placeholder="First Name"
-        />
-        <InputUtil
-          class="m-2 w:1/2 border ring select-none border-primary bg-[rgba(255,255,255,0.6)] ring-primary"
-          type="text"
-          placeholder="Last Name"
-        />
-        <InputUtil
-          class="m-2 w:1/2 border ring select-none border-primary bg-[rgba(255,255,255,0.6)] ring-primary"
-          type="email"
-          placeholder="example@mail.az"
-        />
-        <InputUtil
-          class="m-2 w:1/2 border ring select-none border-primary bg-[rgba(255,255,255,0.6)] ring-primary"
-          type="number"
-          placeholder="+ ( *** ) ** **"
-        />
-        <InputUtil
-          class="m-2 w:1/2 select none border ring border-primary bg-[rgba(255,255,255,0.6)] ring-primary"
-          type="password"
-          placeholder="********"
-        />
+        <InputUtil type="text" placeholder="First Name" />
+        <InputUtil type="text" placeholder="Last Name" />
+        <InputUtil type="email" placeholder="example@mail.az" />
+        <InputUtil type="number" placeholder="+ ( *** ) ** **" />
+        <InputUtil type="password" placeholder="********" />
         <SubmitUtil
           value="Register"
           class="m-2 w:1/2 font-bold select none border ring hover:bg-primary hover:text-second border-primary ring-primary"
@@ -61,19 +41,19 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
         <ul class="flex justify-evenly">
           <li>
             <ion-icon
-              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              class="p-2 text-primary bg-second rounded-lg shadow-md text-2xl cursor-pointer"
               name="logo-google"
             ></ion-icon>
           </li>
           <li>
             <ion-icon
-              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              class="p-2 text-primary bg-second rounded-lg shadow-md text-2xl cursor-pointer"
               name="logo-facebook"
             ></ion-icon>
           </li>
           <li>
             <ion-icon
-              class="p-2 text-primary shadow-md text-2xl cursor-pointer"
+              class="p-2 text-primary bg-second rounded-lg shadow-md text-2xl cursor-pointer"
               name="logo-github"
             ></ion-icon>
           </li>

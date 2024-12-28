@@ -19,11 +19,7 @@ import RouterIconUtil from '@/utils/RouterIconUtil.vue'
       </div>
       <HeaderUtil title="Forgot Password ?" class="text-primary text-3xl underline" />
       <form action="" class="flex flex-col">
-        <InputUtil
-          class="m-2 w:1/2 border ring select-none border-primary ring-primary"
-          type="email"
-          placeholder="Email"
-        />
+        <InputUtil type="email" placeholder="Email" />
         <SubmitUtil
           value="Send"
           class="m-2 w:1/2 select none border ring hover:bg-primary hover:text-second border-primary ring-primary"
