@@ -8,6 +8,7 @@ export default {
         'home-bg': "url('@/assets/images/home-card-bg.jpeg')",
         'home-card-bg': "url('@/assets/images/home-bg.jpeg')",
         'logo-bg': "url('@/assets/images/logo/logo-transparent.png')",
+        'profile-left-bg': "url('@/assets/images/profile-left.jpeg')",
       },
       colors: {
         // primary: '#222222',

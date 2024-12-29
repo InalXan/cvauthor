@@ -2,6 +2,7 @@
 // components
 import StartPageNavComponent from '@/components/StartPageNavComponent.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
+import SponsorComponent from '@/components/SponsorComponent.vue'
 import RouterUtil from '@/utils/RouterUtil.vue'
 </script>
 
@@ -44,7 +45,9 @@ import RouterUtil from '@/utils/RouterUtil.vue'
           name="Get Started"
         />
       </div>
-      <div>
+      <!-- sponsors  -->
+      <SponsorComponent />
+      <div class="my-10">
         <h1 class="text-2xl text-primary">/ Why Madlyink ?</h1>
       </div>
       <!-- Cards Section -->
