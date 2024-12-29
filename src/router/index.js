@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ProfileView from '@/views/ProfileView.vue'
-import ContactView from '@/views/FeedbackView.vue'
+import FeedbackView from '@/views/FeedbackView.vue'
+import MissionView from '@/views/MissionView.vue'
 import LoginView from '@/views/auth/LoginView.vue'
 import RegisterView from '@/views/auth/RegisterView.vue'
 import ForgotView from '@/views/auth/ForgotView.vue'
@@ -44,9 +45,14 @@ const router = createRouter({
     },
 
     {
-      path: '/contact',
-      name: 'contact',
-      component: ContactView,
+      path: '/feedback',
+      name: 'feedback',
+      component: FeedbackView,
+    },
+    {
+      path: '/mission',
+      name: 'mission',
+      component: MissionView,
     },
   ],
 })
